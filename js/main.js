@@ -35,7 +35,21 @@ const links = [
                 url: "week3/team.html"
             }
         ]
+    },
+    {
+        week: "Week 4",
+        content: [
+            {
+                label: "Forms",
+                url: "week4/search.html"
+            },
+            {
+                label: "Team Assignment",
+                url: "week4/team.html"
+            }
+        ]
     }
+
 ];
 
 // create the list of contents
