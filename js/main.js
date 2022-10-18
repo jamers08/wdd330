@@ -14,8 +14,16 @@ const links = [
         week: "Week 2",
         content: [
             {
-                label: "Notes",
-                url: ""
+                label: "Chapter 2 Quiz Ninja",
+                url: "week2/ch2.html"
+            },
+            {
+                label: "Chapter 3 Quiz Ninja",
+                url: "week2/ch3.html"
+            },
+            {
+                label: "Chapter 4 Quiz Ninja",
+                url: "week2/ch4.html"
             },
             {
                 label: "Team Assignment",
