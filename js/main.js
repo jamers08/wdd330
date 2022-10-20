@@ -35,8 +35,16 @@ const links = [
         week: "Week 3",
         content: [
             {
-                label: "Notes",
-                url: ""
+                label: "Chapter 5 Quiz Ninja",
+                url: "week3/ch5.html"
+            },
+            {
+                label: "Chapter 6 Quiz Ninja",
+                url: "week3/ch6.html"
+            },
+            {
+                label: "Chapter 7 Quiz Ninja",
+                url: "week3/ch7.html"
             },
             {
                 label: "Team Assignment",
@@ -48,8 +56,16 @@ const links = [
         week: "Week 4",
         content: [
             {
-                label: "Forms",
-                url: "week4/search.html"
+                label: "Chapter 8 Quiz Ninja",
+                url: "week4/ch8.html"
+            },
+            {
+                label: "Chapter 12 Quiz Ninja",
+                url: "week4/ch12.html"
+            },
+            {
+                label: "Chapter 15 Quiz Ninja",
+                url: "week4/ch15.html"
             },
             {
                 label: "Team Assignment",
