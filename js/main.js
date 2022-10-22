@@ -72,6 +72,19 @@ const links = [
                 url: "week4/team.html"
             }
         ]
+    },
+    {
+        week: "Week 5",
+        content: [
+            {
+                label: "Chapter 10 Quiz Ninja",
+                url: "week5/ch10.html"
+            },
+            {
+                label: "Team Assignment",
+                url: "week5/team.html"
+            }
+        ]
     }
 
 ];
