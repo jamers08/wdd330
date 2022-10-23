@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Acme", Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: #A8F0DC;
+    padding: 1rem;
+}
+
+#taskContainer {
+    padding: .5rem;
+    background-color: #A8F0DC;
+    text-align: center;
+    width: 100%;
+}
+
+input, li {
+    padding: .5rem;
+    width: 80%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+button {
+    padding: .5rem;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+
