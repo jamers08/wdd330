@@ -45,5 +45,6 @@ li {
 
 ul li.checked {
     text-decoration: line-through;
+    background-color: lightgray;
 }
 
