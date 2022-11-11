@@ -99,8 +99,29 @@ const links = [
         week: "Week 7",
         content: [
             {
+                label: "Chapter 11 Quiz Ninja",
+                url: "week7/ch11.html"
+            },
+            {
+                label: "Chapter 13 Quiz Ninja",
+                url: "week7/ch13html"
+            },
+            {
                 label: "Team Assignment",
                 url: "week7/team.html"
+            }
+        ]
+    },
+    {
+        week: "Week 8",
+        content: [
+            {
+                label: "Chapters 8 and 12 SitePoint",
+                url: "week8/ch8.html"
+            },
+            {
+                label: "Team Assignment",
+                url: "week8/team.html"
             }
         ]
     }
