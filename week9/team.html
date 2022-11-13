@@ -65,15 +65,41 @@
         const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
         //console.log(audio);
         if(!audio) return; //stop the function from running all together
-        audio.currentTime = 0; //rewind to start
+        audio.currentTime = 0; //rewind to start to rapidly play
         audio.play();
         key.classList.add('playing'); //adds css change
+        moveKey(key);
     }
 
     function removeTransition(e) {
         //console.log(e);
         if(e.propertyName !== 'transform') return; //skip if it's not a transform
         this.classList.remove('playing'); //removes everything that was added
+    }
+
+    let key_adds = {}
+    
+    document.querySelectorAll(".key").forEach(element => {
+        key_adds[element.dataset.key] = 0;
+    });
+
+    function moveKey(key){
+        key_adds[key.dataset.key] += 10;
+        if(key_adds[key.dataset.key] == 100){
+        key_adds[key.dataset.key] = 0;
+        }
+        
+        key.style.marginTop  = `${key_adds[key.dataset.key]}px`;//(key.style.marginTop + 150) + "px";
+    }
+
+    keyOffsetY = {};
+
+    function moveKeyStretchGoal(key){
+        if(!(key.dataset.key in keyOffsetY )){
+        keyOffsetY [key.dataset.key] = 0;
+        }
+        keyOffsetY [key.dataset.key] = (keyOffsetY [key.dataset.key] + 10) % 100;
+        key.style.marginTop = `${keyOffsetY [key.dataset.key]}px`;
     }
 
     const keys = document.querySelectorAll('.key');
