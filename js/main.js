@@ -141,6 +141,15 @@ const links = [
                 url: "week9/team.html"
             }
         ]
+    },
+    {
+        week: "Week 10",
+        content: [
+            {
+                label: "Team Assignment",
+                url: "week10/team.html"
+            }
+        ]
     }
 
 ];
