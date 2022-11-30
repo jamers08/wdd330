@@ -1,5 +1,5 @@
 const detailsBox = document.getElementById("detailsbox");
-const basePokemonUrl = 
+const basePokemonUrl = "https://pokeapi.co/api/v2/pokemon";
 let limit = 10;
 
 async function fetchPokemon(url)
