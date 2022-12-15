@@ -102,9 +102,19 @@ function changeType() {
 };
 
 function displayPokemonCard() {
+    let card = document.createElement('div');
     shuffle = Math.floor(Math.random() * pokeData.length);
-    let pic = document.creat
-}
+    let pic = document.createElement('img');
+    pic.setAttribute('src', `${pokeData[shuffle].sprites.front_default}`);
+    pic.setAttribute('alt', `${pokeData[shuffle].name}`);
+    let name = document.createElement('h2');
+    name.textContent = `${pokeData[shuffle].name}`;
 
-displayPokemonCard();
+    card.appendChild(pic);
+    card.appendChild(name);
 
+    drawCard.appendChild(card);
+};
+
+drawBtn.addEventListener('click', displayPokemonCard);
+chooseType.addEventListener('change', changeType);
