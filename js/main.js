@@ -150,6 +150,15 @@ const links = [
                 url: "week10/team.html"
             }
         ]
+    },
+    {
+        week: "Final",
+        content: [
+            {
+                label: "Final Project",
+                url: "week14/final.html"
+            }
+        ]
     }
 
 ];

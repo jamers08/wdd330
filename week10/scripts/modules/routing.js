@@ -10,7 +10,12 @@ const routes = [
         controller: new QuakesController('#quakeList', {lat: 44.423691, lon: -110.588516}),
         file: 'views/quakeList.html',
         label: 'Yellowstone Quakes'
-    }
+    }/*,
+    {
+        controller: new QuakesController('#quakeList'),
+        file: 'team.html',
+        label: 'Back'
+    }*/
 ];
 
 // function to create a navigation for the items found in routes.

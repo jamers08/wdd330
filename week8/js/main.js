@@ -7,6 +7,7 @@ async function fetchPokemon(url)
     response = await fetch(url);
     if(response.ok){
         const pokemon = await response.json();
+        console.log(pokemon);
         return pokemon;
     };
 }
